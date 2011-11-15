@@ -6,7 +6,7 @@ setup(
     description='A simple API for easy, intuitive integration testing for python apps',
     author='Mike Leone',
     author_email='michael.leone@panopticdev.com',
-    url='http://panopticdev.com',
+    url='https://github.com/mleone/easy-integration',
     packages=find_packages(),
     classifiers=[
         'Development Status :: 3 - Alpha',

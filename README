@@ -2,7 +2,8 @@ INSTALLATION
 ============
 
 From the command-line:
-$ pip install easy-integration
+$ pip install git+git://github.com/mleone/easy-integration.git
+(may need root privileges)
 
 
 USAGE
