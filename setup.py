@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
  
 setup(
     name='easy-integration',
-    version='0.1',
+    version='0.2',
     description='A simple API for easy, intuitive integration testing for python apps',
     author='Mike Leone',
     author_email='michael.leone@panopticdev.com',

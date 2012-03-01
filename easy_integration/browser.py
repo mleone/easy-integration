@@ -17,7 +17,7 @@ def app_url(path):
     return "http://127.0.0.1:8001" + path
 
 def displays(text):
-    return BROWSER.is_text_present(text)
+    return text in BROWSER.html
 
 def click(text):
     """Clicks the first button or link that matches the text.  Buttons have
