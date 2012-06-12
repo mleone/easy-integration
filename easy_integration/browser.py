@@ -23,7 +23,7 @@ def click(text):
     """Clicks the first button or link that matches the text.  Buttons have
     priority."""
     match = (BROWSER.find_by_value(text) or 
-        BROWSER.find_link_by_text(text) or 
+        BROWSER.find_link_by_partial_text(text) or 
         BROWSER.find_by_css(text))
     return match.first.click()
 
