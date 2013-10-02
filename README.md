@@ -9,9 +9,9 @@ $ pip install git+git://github.com/mleone/easy-integration.git
 #USAGE
 
 From your application's test suite:
-
+````python
 from easy_integration import browser
-
+````
 
 #API EXAMPLES
 
