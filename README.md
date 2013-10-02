@@ -1,22 +1,21 @@
-INSTALLATION
-============
+#INSTALLATION
 
-From the command-line:
+From the command-line(may need root privileges):
+````bash
 $ pip install git+git://github.com/mleone/easy-integration.git
-(may need root privileges)
+````
 
 
-USAGE
-=====
+#USAGE
 
 From your application's test suite:
 
 from easy_integration import browser
 
 
-API EXAMPLES
-============
+#API EXAMPLES
 
+````python
 # Returns True if the page contains the exact text, False otherwise:
 browser.displays("Hello world!")
 
@@ -38,4 +37,4 @@ browser.fill_in("password", "abcd1234")
 Select an item from a drop-down list, matching the option's id attribute:
 browser.select("country", "USA")
 browser.select("state", "Rhode Island")
-
+````
